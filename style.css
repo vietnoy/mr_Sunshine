@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/galaxy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Belanosima',sans-serif;
+    color: white;
+}
+
+p {
+    font-size: 40px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: rgb(179, 57, 151) 2px 2px;
+}
+
+.input_field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.mainContent {
+    background-color: rgba(111, 100, 100,0.3);
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    padding-right: 40px;
+    justify-content: center;
+}
+
+#answer {
+    background-color: rgba(90, 86, 86, 0.4);
+}
+
+img {
+    scale: 0.7;
+    object-position: right;
+}
+
+#input_field {
+    margin: 10px;
+    font:inherit;
+}

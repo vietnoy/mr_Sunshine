@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+    <script type="module" src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Solar System</title>
+</head>
+<body>
+    <h1>Calculate a weigth of an object on a Planet</h1>
+    <div class="input_field">
+        <input type="text" id = 'input_field'>
+        <select id = 'input_field' required>
+            <option value="selcet a country" selected disabled>--select a country--</option>
+            <option value="earth" class = 'option'>earth</option>
+            <option value="jupiter" class = 'option'>jupiter</option>
+            <option value="mars" class = 'option'>mars</option>
+            <option value="mercury" class = 'option'>mercury</option>
+            <option value="moon" class = 'option'>moon</option>
+            <option value="neptune" class = 'option'>neptune</option>
+            <option value="pluto" class='option'>pluto</option>
+            <option value="saturn" class="option">saturn</option>
+            <option value="uranus" class="option">uranus</option>
+            <option value="venus" class="option">venus</option>
+        </select>
+        <button type="submit" id = 'input_field'>Calculate weigth</button>
+    </div>
+    <div class="mainContent">
+        <img class="image">
+        <div id="answer">
+            <p class="answer"></p>
+        </div>
+    </div>
+</body>
+</html>
